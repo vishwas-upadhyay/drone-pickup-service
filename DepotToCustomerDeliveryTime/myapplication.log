@@ -1,0 +1,925 @@
+2018-02-06 21:35:41.913 DEBUG 7612 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+2018-02-06 21:35:41.929 DEBUG 7612 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding PropertySource 'servletContextInitParams' with lowest search precedence
+2018-02-06 21:35:41.930 DEBUG 7612 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding PropertySource 'systemProperties' with lowest search precedence
+2018-02-06 21:35:41.931 DEBUG 7612 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding PropertySource 'systemEnvironment' with lowest search precedence
+2018-02-06 21:35:41.933 DEBUG 7612 --- [main] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [StubPropertySource {name='servletConfigInitParams'}, StubPropertySource {name='servletContextInitParams'}, MapPropertySource {name='systemProperties'}, SystemEnvironmentPropertySource {name='systemEnvironment'}]
+2018-02-06 21:35:42.215  INFO 7612 --- [main] d.DepotToCustomerDeliveryTimeApplication : Starting DepotToCustomerDeliveryTimeApplication on VikkyhpSleekbook with PID 7612 (E:\STS_workspace\DepotToCustomerDeliveryTime\target\classes started by hp in E:\STS_workspace\DepotToCustomerDeliveryTime)
+2018-02-06 21:35:42.217  INFO 7612 --- [main] d.DepotToCustomerDeliveryTimeApplication : No active profile set, falling back to default profiles: default
+2018-02-06 21:35:43.743  INFO 7612 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7fad8c79: startup date [Tue Feb 06 21:35:43 IST 2018]; root of context hierarchy
+2018-02-06 21:35:46.225 DEBUG 7612 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with search precedence immediately lower than 'applicationConfigurationProperties'
+2018-02-06 21:35:46.226 DEBUG 7612 --- [main] o.s.w.c.s.StandardServletEnvironment     : Removing PropertySource 'applicationConfigurationProperties'
+2018-02-06 21:35:46.227 DEBUG 7612 --- [main] o.s.w.c.s.StandardServletEnvironment     : Removing PropertySource 'defaultProperties'
+2018-02-06 21:35:48.380  INFO 7612 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-02-06 21:35:48.449  INFO 7612 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-06 21:35:48.454  INFO 7612 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-06 21:35:50.413  INFO 7612 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-06 21:35:50.416 DEBUG 7612 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2018-02-06 21:35:50.417  INFO 7612 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6686 ms
+2018-02-06 21:35:52.254  INFO 7612 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-06 21:35:52.301  INFO 7612 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-06 21:35:52.304  INFO 7612 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-06 21:35:52.305  INFO 7612 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-06 21:35:52.306  INFO 7612 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-06 21:35:52.423 DEBUG 7612 --- [main] o.s.w.c.s.StandardServletEnvironment     : Replacing PropertySource 'servletContextInitParams' with 'servletContextInitParams'
+2018-02-06 21:35:53.781  INFO 7612 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7fad8c79: startup date [Tue Feb 06 21:35:43 IST 2018]; root of context hierarchy
+2018-02-06 21:35:54.029 DEBUG 7612 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Looking for request mappings in application context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7fad8c79: startup date [Tue Feb 06 21:35:43 IST 2018]; root of context hierarchy
+2018-02-06 21:35:54.072 DEBUG 7612 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 request handler methods found on class com.vishwas.depottocustomerdeliverytime.controller.CustomerController: {public java.lang.String com.vishwas.depottocustomerdeliverytime.controller.CustomerController.index()={[/]}, public org.springframework.web.servlet.ModelAndView com.vishwas.depottocustomerdeliverytime.controller.CustomerController.save(com.vishwas.depottocustomerdeliverytime.beans.Location)={[/save],methods=[POST]}}
+2018-02-06 21:35:54.073  INFO 7612 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.vishwas.depottocustomerdeliverytime.controller.CustomerController.index()
+2018-02-06 21:35:54.077  INFO 7612 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.vishwas.depottocustomerdeliverytime.controller.CustomerController.save(com.vishwas.depottocustomerdeliverytime.beans.Location)
+2018-02-06 21:35:54.089 DEBUG 7612 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 request handler methods found on class org.springframework.boot.autoconfigure.web.BasicErrorController: {public org.springframework.http.ResponseEntity org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)={[/error]}, public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)={[/error],produces=[text/html]}}
+2018-02-06 21:35:54.091  INFO 7612 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-06 21:35:54.093  INFO 7612 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-06 21:35:54.189 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Looking for URL mappings in application context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7fad8c79: startup date [Tue Feb 06 21:35:43 IST 2018]; root of context hierarchy
+2018-02-06 21:35:54.191 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor': no URL paths identified
+2018-02-06 21:35:54.192 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor': no URL paths identified
+2018-02-06 21:35:54.193 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.annotation.internalRequiredAnnotationProcessor': no URL paths identified
+2018-02-06 21:35:54.194 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.annotation.internalCommonAnnotationProcessor': no URL paths identified
+2018-02-06 21:35:54.195 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.event.internalEventListenerProcessor': no URL paths identified
+2018-02-06 21:35:54.196 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.event.internalEventListenerFactory': no URL paths identified
+2018-02-06 21:35:54.197 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'depotToCustomerDeliveryTimeApplication': no URL paths identified
+2018-02-06 21:35:54.198 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory': no URL paths identified
+2018-02-06 21:35:54.199 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'customerController': no URL paths identified
+2018-02-06 21:35:54.199 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'customerService': no URL paths identified
+2018-02-06 21:35:54.200 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.AutoConfigurationPackages': no URL paths identified
+2018-02-06 21:35:54.200 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration': no URL paths identified
+2018-02-06 21:35:54.201 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry': no URL paths identified
+2018-02-06 21:35:54.201 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'propertySourcesPlaceholderConfigurer': no URL paths identified
+2018-02-06 21:35:54.202 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration': no URL paths identified
+2018-02-06 21:35:54.202 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'standardJacksonObjectMapperBuilderCustomizer': no URL paths identified
+2018-02-06 21:35:54.203 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties': no URL paths identified
+2018-02-06 21:35:54.203 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor': no URL paths identified
+2018-02-06 21:35:54.203 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.store': no URL paths identified
+2018-02-06 21:35:54.204 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration': no URL paths identified
+2018-02-06 21:35:54.204 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'jacksonObjectMapperBuilder': no URL paths identified
+2018-02-06 21:35:54.205 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration': no URL paths identified
+2018-02-06 21:35:54.205 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'jacksonObjectMapper': no URL paths identified
+2018-02-06 21:35:54.206 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration': no URL paths identified
+2018-02-06 21:35:54.206 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'jsonComponentModule': no URL paths identified
+2018-02-06 21:35:54.207 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration$TomcatWebSocketConfiguration': no URL paths identified
+2018-02-06 21:35:54.208 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'websocketContainerCustomizer': no URL paths identified
+2018-02-06 21:35:54.208 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration': no URL paths identified
+2018-02-06 21:35:54.209 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration$EmbeddedTomcat': no URL paths identified
+2018-02-06 21:35:54.209 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'tomcatEmbeddedServletContainerFactory': no URL paths identified
+2018-02-06 21:35:54.210 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration': no URL paths identified
+2018-02-06 21:35:54.210 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'embeddedServletContainerCustomizerBeanPostProcessor': no URL paths identified
+2018-02-06 21:35:54.211 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'errorPageRegistrarBeanPostProcessor': no URL paths identified
+2018-02-06 21:35:54.212 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletConfiguration': no URL paths identified
+2018-02-06 21:35:54.212 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'dispatcherServlet': no URL paths identified
+2018-02-06 21:35:54.213 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.mvc-org.springframework.boot.autoconfigure.web.WebMvcProperties': no URL paths identified
+2018-02-06 21:35:54.214 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration': no URL paths identified
+2018-02-06 21:35:54.214 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'dispatcherServletRegistration': no URL paths identified
+2018-02-06 21:35:54.215 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration': no URL paths identified
+2018-02-06 21:35:54.215 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration': no URL paths identified
+2018-02-06 21:35:54.215 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'defaultValidator': no URL paths identified
+2018-02-06 21:35:54.216 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'methodValidationPostProcessor': no URL paths identified
+2018-02-06 21:35:54.216 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration': no URL paths identified
+2018-02-06 21:35:54.217 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'error': no URL paths identified
+2018-02-06 21:35:54.217 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'beanNameViewResolver': no URL paths identified
+2018-02-06 21:35:54.218 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration': no URL paths identified
+2018-02-06 21:35:54.218 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'conventionErrorViewResolver': no URL paths identified
+2018-02-06 21:35:54.219 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration': no URL paths identified
+2018-02-06 21:35:54.220 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'errorAttributes': no URL paths identified
+2018-02-06 21:35:54.220 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'basicErrorController': no URL paths identified
+2018-02-06 21:35:54.220 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'errorPageCustomizer': no URL paths identified
+2018-02-06 21:35:54.221 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'preserveErrorControllerTargetClassPostProcessor': no URL paths identified
+2018-02-06 21:35:54.221 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties': no URL paths identified
+2018-02-06 21:35:54.222 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$EnableWebMvcConfiguration': no URL paths identified
+2018-02-06 21:35:54.222 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'requestMappingHandlerAdapter': no URL paths identified
+2018-02-06 21:35:54.223 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'requestMappingHandlerMapping': no URL paths identified
+2018-02-06 21:35:54.223 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcValidator': no URL paths identified
+2018-02-06 21:35:54.224 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcContentNegotiationManager': no URL paths identified
+2018-02-06 21:35:54.224 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcPathMatcher': no URL paths identified
+2018-02-06 21:35:54.225 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcUrlPathHelper': no URL paths identified
+2018-02-06 21:35:54.225 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'viewControllerHandlerMapping': no URL paths identified
+2018-02-06 21:35:54.226 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'beanNameHandlerMapping': no URL paths identified
+2018-02-06 21:35:54.226 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'resourceHandlerMapping': no URL paths identified
+2018-02-06 21:35:54.227 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcResourceUrlProvider': no URL paths identified
+2018-02-06 21:35:54.227 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'defaultServletHandlerMapping': no URL paths identified
+2018-02-06 21:35:54.227 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcConversionService': no URL paths identified
+2018-02-06 21:35:54.228 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcUriComponentsContributor': no URL paths identified
+2018-02-06 21:35:54.228 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'httpRequestHandlerAdapter': no URL paths identified
+2018-02-06 21:35:54.229 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'simpleControllerHandlerAdapter': no URL paths identified
+2018-02-06 21:35:54.229 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'handlerExceptionResolver': no URL paths identified
+2018-02-06 21:35:54.230 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcViewResolver': no URL paths identified
+2018-02-06 21:35:54.230 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcHandlerMappingIntrospector': no URL paths identified
+2018-02-06 21:35:54.230 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration': no URL paths identified
+2018-02-06 21:35:54.231 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'faviconHandlerMapping': no URL paths identified
+2018-02-06 21:35:54.231 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'faviconRequestHandler': no URL paths identified
+2018-02-06 21:35:54.232 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter': no URL paths identified
+2018-02-06 21:35:54.232 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'defaultViewResolver': no URL paths identified
+2018-02-06 21:35:54.232 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'viewResolver': no URL paths identified
+2018-02-06 21:35:54.233 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'welcomePageHandlerMapping': no URL paths identified
+2018-02-06 21:35:54.234 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'requestContextFilter': no URL paths identified
+2018-02-06 21:35:54.234 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration': no URL paths identified
+2018-02-06 21:35:54.234 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'hiddenHttpMethodFilter': no URL paths identified
+2018-02-06 21:35:54.235 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'httpPutFormContentFilter': no URL paths identified
+2018-02-06 21:35:54.235 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration': no URL paths identified
+2018-02-06 21:35:54.236 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mbeanExporter': no URL paths identified
+2018-02-06 21:35:54.236 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'objectNamingStrategy': no URL paths identified
+2018-02-06 21:35:54.236 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mbeanServer': no URL paths identified
+2018-02-06 21:35:54.237 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration': no URL paths identified
+2018-02-06 21:35:54.237 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration': no URL paths identified
+2018-02-06 21:35:54.238 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'stringHttpMessageConverter': no URL paths identified
+2018-02-06 21:35:54.238 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.http.encoding-org.springframework.boot.autoconfigure.web.HttpEncodingProperties': no URL paths identified
+2018-02-06 21:35:54.238 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration': no URL paths identified
+2018-02-06 21:35:54.239 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mappingJackson2HttpMessageConverter': no URL paths identified
+2018-02-06 21:35:54.239 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.JacksonHttpMessageConvertersConfiguration': no URL paths identified
+2018-02-06 21:35:54.239 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration': no URL paths identified
+2018-02-06 21:35:54.240 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'messageConverters': no URL paths identified
+2018-02-06 21:35:54.241 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration': no URL paths identified
+2018-02-06 21:35:54.241 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties': no URL paths identified
+2018-02-06 21:35:54.241 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafResourceHandlingConfig': no URL paths identified
+2018-02-06 21:35:54.242 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafWebLayoutConfiguration': no URL paths identified
+2018-02-06 21:35:54.242 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'layoutDialect': no URL paths identified
+2018-02-06 21:35:54.242 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafDefaultConfiguration': no URL paths identified
+2018-02-06 21:35:54.243 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'templateEngine': no URL paths identified
+2018-02-06 21:35:54.243 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$Thymeleaf2Configuration$Thymeleaf2ViewResolverConfiguration': no URL paths identified
+2018-02-06 21:35:54.244 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'thymeleafViewResolver': no URL paths identified
+2018-02-06 21:35:54.244 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$Thymeleaf2Configuration$DefaultTemplateResolverConfiguration': no URL paths identified
+2018-02-06 21:35:54.244 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'thymeleafResourceResolver': no URL paths identified
+2018-02-06 21:35:54.245 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'defaultTemplateResolver': no URL paths identified
+2018-02-06 21:35:54.245 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$Thymeleaf2Configuration': no URL paths identified
+2018-02-06 21:35:54.246 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration': no URL paths identified
+2018-02-06 21:35:54.246 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.thymeleaf-org.springframework.boot.autoconfigure.thymeleaf.ThymeleafProperties': no URL paths identified
+2018-02-06 21:35:54.246 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.HttpEncodingAutoConfiguration': no URL paths identified
+2018-02-06 21:35:54.247 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'characterEncodingFilter': no URL paths identified
+2018-02-06 21:35:54.256 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'localeCharsetMappingsCustomizer': no URL paths identified
+2018-02-06 21:35:54.257 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.MultipartAutoConfiguration': no URL paths identified
+2018-02-06 21:35:54.257 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'multipartConfigElement': no URL paths identified
+2018-02-06 21:35:54.257 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'multipartResolver': no URL paths identified
+2018-02-06 21:35:54.258 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.http.multipart-org.springframework.boot.autoconfigure.web.MultipartProperties': no URL paths identified
+2018-02-06 21:35:54.258 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.ServerPropertiesAutoConfiguration': no URL paths identified
+2018-02-06 21:35:54.259 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'serverProperties': no URL paths identified
+2018-02-06 21:35:54.259 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'duplicateServerPropertiesDetector': no URL paths identified
+2018-02-06 21:35:54.259 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.WebClientAutoConfiguration$RestTemplateConfiguration': no URL paths identified
+2018-02-06 21:35:54.260 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'restTemplateBuilder': no URL paths identified
+2018-02-06 21:35:54.260 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.WebClientAutoConfiguration': no URL paths identified
+2018-02-06 21:35:54.260 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'autoConfigurationReport': no URL paths identified
+2018-02-06 21:35:54.261 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'springApplicationArguments': no URL paths identified
+2018-02-06 21:35:54.261 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'springBootBanner': no URL paths identified
+2018-02-06 21:35:54.261 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'springBootLoggingSystem': no URL paths identified
+2018-02-06 21:35:54.262 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'environment': no URL paths identified
+2018-02-06 21:35:54.262 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'systemProperties': no URL paths identified
+2018-02-06 21:35:54.262 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'systemEnvironment': no URL paths identified
+2018-02-06 21:35:54.263 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry': no URL paths identified
+2018-02-06 21:35:54.263 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'messageSource': no URL paths identified
+2018-02-06 21:35:54.263 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'applicationEventMulticaster': no URL paths identified
+2018-02-06 21:35:54.263 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'servletContext': no URL paths identified
+2018-02-06 21:35:54.264 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'contextParameters': no URL paths identified
+2018-02-06 21:35:54.264 DEBUG 7612 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'contextAttributes': no URL paths identified
+2018-02-06 21:35:54.316  INFO 7612 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-06 21:35:54.317  INFO 7612 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-06 21:35:54.365 DEBUG 7612 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Looking for exception mappings: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7fad8c79: startup date [Tue Feb 06 21:35:43 IST 2018]; root of context hierarchy
+2018-02-06 21:35:54.484  INFO 7612 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-06 21:36:05.001  INFO 7612 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-06 21:36:05.070 DEBUG 7612 --- [main] o.s.w.s.resource.ResourceUrlProvider     : Looking for resource handler mappings
+2018-02-06 21:36:05.073 DEBUG 7612 --- [main] o.s.w.s.resource.ResourceUrlProvider     : Found resource handler mapping: URL pattern="/**/favicon.ico", locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], class path resource []], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@50825a02]
+2018-02-06 21:36:05.074 DEBUG 7612 --- [main] o.s.w.s.resource.ResourceUrlProvider     : Found resource handler mapping: URL pattern="/webjars/**", locations=[class path resource [META-INF/resources/webjars/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@68809cc7]
+2018-02-06 21:36:05.074 DEBUG 7612 --- [main] o.s.w.s.resource.ResourceUrlProvider     : Found resource handler mapping: URL pattern="/**", locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@703feacd]
+2018-02-06 21:36:05.578  INFO 7612 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-02-06 21:36:05.582 DEBUG 7612 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding PropertySource 'server.ports' with highest search precedence
+2018-02-06 21:36:05.596  INFO 7612 --- [main] d.DepotToCustomerDeliveryTimeApplication : Started DepotToCustomerDeliveryTimeApplication in 24.921 seconds (JVM running for 26.593)
+2018-02-06 21:36:30.112 DEBUG 7612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing servlet 'dispatcherServlet'
+2018-02-06 21:36:30.116  INFO 7612 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-06 21:36:30.117  INFO 7612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-06 21:36:30.118 DEBUG 7612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Using MultipartResolver [org.springframework.web.multipart.support.StandardServletMultipartResolver@5ab62efb]
+2018-02-06 21:36:30.141 DEBUG 7612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@6268bf20]
+2018-02-06 21:36:30.155 DEBUG 7612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@1b68c7ea]
+2018-02-06 21:36:30.174 DEBUG 7612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@37b909f4]
+2018-02-06 21:36:30.208 DEBUG 7612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Unable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@70ef2f5e]
+2018-02-06 21:36:30.208 DEBUG 7612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Published WebApplicationContext of servlet 'dispatcherServlet' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.dispatcherServlet]
+2018-02-06 21:36:30.209  INFO 7612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 91 ms
+2018-02-06 21:36:30.209 DEBUG 7612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Servlet 'dispatcherServlet' configured successfully
+2018-02-06 21:36:30.293 DEBUG 7612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : DispatcherServlet with name 'dispatcherServlet' processing GET request for [/]
+2018-02-06 21:36:30.308 DEBUG 7612 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Looking up handler method for path /
+2018-02-06 21:36:30.314 DEBUG 7612 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Returning handler method [public java.lang.String com.vishwas.depottocustomerdeliverytime.controller.CustomerController.index()]
+2018-02-06 21:36:30.316 DEBUG 7612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Last-Modified value for [/] is: -1
+2018-02-06 21:36:30.391 DEBUG 7612 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Requested media types are [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8] based on Accept header types and producible media types [*/*])
+2018-02-06 21:36:30.392 DEBUG 7612 --- [http-nio-8080-exec-1] o.s.w.servlet.view.BeanNameViewResolver  : No matching bean found for view name 'index'
+2018-02-06 21:36:30.440 DEBUG 7612 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Returning [org.thymeleaf.spring4.view.ThymeleafView@11f9f089] based on requested media type 'text/html'
+2018-02-06 21:36:30.441 DEBUG 7612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring4.view.ThymeleafView@11f9f089] in DispatcherServlet with name 'dispatcherServlet'
+2018-02-06 21:36:31.105 DEBUG 7612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Successfully completed request
+2018-02-06 21:36:31.186 DEBUG 7612 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : DispatcherServlet with name 'dispatcherServlet' processing GET request for [/drone-white.jpg]
+2018-02-06 21:36:31.188 DEBUG 7612 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Looking up handler method for path /drone-white.jpg
+2018-02-06 21:36:31.197 DEBUG 7612 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Did not find handler method for [/drone-white.jpg]
+2018-02-06 21:36:31.199 DEBUG 7612 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Matching patterns for request [/drone-white.jpg] are [/**]
+2018-02-06 21:36:31.203 DEBUG 7612 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : URI Template variables for request [/drone-white.jpg] are {}
+2018-02-06 21:36:31.207 DEBUG 7612 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapping [/drone-white.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@703feacd]]] and 1 interceptor
+2018-02-06 21:36:31.213 DEBUG 7612 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Last-Modified value for [/drone-white.jpg] is: -1
+2018-02-06 21:36:31.305 DEBUG 7612 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-02-06 21:36:31.305 DEBUG 7612 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Successfully completed request
+2018-02-06 21:37:15.053 DEBUG 7612 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : DispatcherServlet with name 'dispatcherServlet' processing POST request for [/save]
+2018-02-06 21:37:15.056 DEBUG 7612 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Looking up handler method for path /save
+2018-02-06 21:37:15.058 DEBUG 7612 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Returning handler method [public org.springframework.web.servlet.ModelAndView com.vishwas.depottocustomerdeliverytime.controller.CustomerController.save(com.vishwas.depottocustomerdeliverytime.beans.Location)]
+2018-02-06 21:37:15.148 DEBUG 7612 --- [http-nio-8080-exec-5] o.s.web.cors.DefaultCorsProcessor        : Skip CORS processing: request is from same origin
+2018-02-06 21:37:15.611  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.controller.CustomerController      : Customer Controller has Begun
+2018-02-06 21:37:15.613  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's getShortestDistance method has begun.
+2018-02-06 21:37:15.615  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-06 21:37:15.623  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-06 21:37:15.624  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-06 21:37:15.625  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-06 21:37:15.626  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-06 21:37:15.627  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-06 21:37:15.627  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-06 21:37:15.628  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-06 21:37:15.628  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-06 21:37:15.629  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-06 21:37:15.629  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-06 21:37:15.630  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-06 21:37:15.630  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-06 21:37:15.630  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-06 21:37:15.631  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-06 21:37:15.631  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-06 21:37:15.631  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-06 21:37:15.631  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-06 21:37:15.632  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-06 21:37:15.649  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-06 21:37:15.649  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's getShortestDistance method has ended.
+2018-02-06 21:37:15.658  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's getShortestDistance method has begun.
+2018-02-06 21:37:15.660  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-06 21:37:15.660  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-06 21:37:15.661  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-06 21:37:15.661  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-06 21:37:15.661  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-06 21:37:15.662  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-06 21:37:15.663  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-06 21:37:15.663  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-06 21:37:15.670  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-06 21:37:15.670  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-06 21:37:15.671  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's getShortestDistance method has ended.
+2018-02-06 21:37:15.679  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has begun.
+2018-02-06 21:37:15.739  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has ended.
+2018-02-06 21:37:15.740  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has begun.
+2018-02-06 21:37:15.741  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has ended.
+2018-02-06 21:37:15.741  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has begun.
+2018-02-06 21:37:15.742  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has ended.
+2018-02-06 21:37:15.742  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has begun.
+2018-02-06 21:37:15.743  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has ended.
+2018-02-06 21:37:15.744  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has begun.
+2018-02-06 21:37:15.745  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has ended.
+2018-02-06 21:37:15.745  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has begun.
+2018-02-06 21:37:15.746  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has ended.
+2018-02-06 21:37:15.746  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has begun.
+2018-02-06 21:37:15.747  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has ended.
+2018-02-06 21:37:15.747  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has begun.
+2018-02-06 21:37:15.748  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has ended.
+2018-02-06 21:37:15.752  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.controller.CustomerController      : Depot :-->Metrostrasse 12, 40235 Düsseldorf Store :-->Friedrichstraße 152, 40217 Düsseldorf  Customer:-->Kaiserstraße 2, 40479 DüsseldorfDistance :-->4.961805996639315 Time to deliver:-->4minutes 58seconds
+2018-02-06 21:37:15.754  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.controller.CustomerController      : Depot :-->Am Albertussee 1, 40549 Düsseldorf Store :-->Schiessstraße 31, 40549 Düsseldorf  Customer:-->Kaiserstraße 2, 40479 DüsseldorfDistance :-->5.140209671605619 Time to deliver:-->5minutes 8seconds
+2018-02-06 21:37:15.754  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.controller.CustomerController      : Depot :-->Am Albertussee 1, 40549 Düsseldorf Store :-->Friedrichstraße 152, 40217 Düsseldorf  Customer:-->Kaiserstraße 2, 40479 DüsseldorfDistance :-->5.531502643044509 Time to deliver:-->5minutes 32seconds
+2018-02-06 21:37:15.755  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.controller.CustomerController      : Depot :-->Am Albertussee 1, 40549 Düsseldorf Store :-->Bataverstraße 93, 41462 Neuss  Customer:-->Kaiserstraße 2, 40479 DüsseldorfDistance :-->9.16936316037892 Time to deliver:-->9minutes 10seconds
+2018-02-06 21:37:15.756  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.controller.CustomerController      : Depot :-->Metrostrasse 12, 40235 Düsseldorf Store :-->Schiessstraße 31, 40549 Düsseldorf  Customer:-->Kaiserstraße 2, 40479 DüsseldorfDistance :-->12.197464899197907 Time to deliver:-->12minutes 12seconds
+2018-02-06 21:37:15.757  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.controller.CustomerController      : Depot :-->Metrostrasse 12, 40235 Düsseldorf Store :-->Bataverstraße 93, 41462 Neuss  Customer:-->Kaiserstraße 2, 40479 DüsseldorfDistance :-->16.161779071669866 Time to deliver:-->16minutes 10seconds
+2018-02-06 21:37:15.758  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.controller.CustomerController      : Depot :-->Metrostrasse 12, 40235 Düsseldorf Store :-->Am Sandbach 30, 40878 Ratingen  Customer:-->Kaiserstraße 2, 40479 DüsseldorfDistance :-->17.59173032520284 Time to deliver:-->17minutes 35seconds
+2018-02-06 21:37:15.758  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.controller.CustomerController      : Depot :-->Am Albertussee 1, 40549 Düsseldorf Store :-->Am Sandbach 30, 40878 Ratingen  Customer:-->Kaiserstraße 2, 40479 DüsseldorfDistance :-->20.700631298442836 Time to deliver:-->20minutes 42seconds
+2018-02-06 21:37:15.759  INFO 7612 --- [http-nio-8080-exec-5] c.v.d.controller.CustomerController      : Customer Controller has ended
+2018-02-06 21:37:15.765 DEBUG 7612 --- [http-nio-8080-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Requested media types are [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8] based on Accept header types and producible media types [*/*])
+2018-02-06 21:37:15.765 DEBUG 7612 --- [http-nio-8080-exec-5] o.s.w.servlet.view.BeanNameViewResolver  : No matching bean found for view name 'depot-to-customer'
+2018-02-06 21:37:15.769 DEBUG 7612 --- [http-nio-8080-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Returning [org.thymeleaf.spring4.view.ThymeleafView@5be38c06] based on requested media type 'text/html'
+2018-02-06 21:37:15.770 DEBUG 7612 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring4.view.ThymeleafView@5be38c06] in DispatcherServlet with name 'dispatcherServlet'
+2018-02-06 21:37:16.693 DEBUG 7612 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Successfully completed request
+2018-02-07 08:25:38.369 DEBUG 3444 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+2018-02-07 08:25:38.400 DEBUG 3444 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding PropertySource 'servletContextInitParams' with lowest search precedence
+2018-02-07 08:25:38.400 DEBUG 3444 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding PropertySource 'systemProperties' with lowest search precedence
+2018-02-07 08:25:38.400 DEBUG 3444 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding PropertySource 'systemEnvironment' with lowest search precedence
+2018-02-07 08:25:38.400 DEBUG 3444 --- [main] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [StubPropertySource {name='servletConfigInitParams'}, StubPropertySource {name='servletContextInitParams'}, MapPropertySource {name='systemProperties'}, SystemEnvironmentPropertySource {name='systemEnvironment'}]
+2018-02-07 08:25:38.634  INFO 3444 --- [main] d.DepotToCustomerDeliveryTimeApplication : Starting DepotToCustomerDeliveryTimeApplication on VikkyhpSleekbook with PID 3444 (E:\STS_workspace\DepotToCustomerDeliveryTime\target\classes started by hp in E:\STS_workspace\DepotToCustomerDeliveryTime)
+2018-02-07 08:25:38.650  INFO 3444 --- [main] d.DepotToCustomerDeliveryTimeApplication : No active profile set, falling back to default profiles: default
+2018-02-07 08:25:40.455  INFO 3444 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7fad8c79: startup date [Wed Feb 07 08:25:40 IST 2018]; root of context hierarchy
+2018-02-07 08:25:43.002 DEBUG 3444 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with search precedence immediately lower than 'applicationConfigurationProperties'
+2018-02-07 08:25:43.002 DEBUG 3444 --- [main] o.s.w.c.s.StandardServletEnvironment     : Removing PropertySource 'applicationConfigurationProperties'
+2018-02-07 08:25:43.002 DEBUG 3444 --- [main] o.s.w.c.s.StandardServletEnvironment     : Removing PropertySource 'defaultProperties'
+2018-02-07 08:25:45.094  INFO 3444 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-02-07 08:25:45.142  INFO 3444 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-07 08:25:45.142  INFO 3444 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-07 08:25:45.549  INFO 3444 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-07 08:25:45.549 DEBUG 3444 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2018-02-07 08:25:45.549  INFO 3444 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5094 ms
+2018-02-07 08:25:45.879  INFO 3444 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-07 08:25:45.879  INFO 3444 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-07 08:25:45.895  INFO 3444 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-07 08:25:45.895  INFO 3444 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-07 08:25:45.895  INFO 3444 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-07 08:25:45.973 DEBUG 3444 --- [main] o.s.w.c.s.StandardServletEnvironment     : Replacing PropertySource 'servletContextInitParams' with 'servletContextInitParams'
+2018-02-07 08:25:46.784  INFO 3444 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7fad8c79: startup date [Wed Feb 07 08:25:40 IST 2018]; root of context hierarchy
+2018-02-07 08:25:46.972 DEBUG 3444 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Looking for request mappings in application context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7fad8c79: startup date [Wed Feb 07 08:25:40 IST 2018]; root of context hierarchy
+2018-02-07 08:25:47.004 DEBUG 3444 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 request handler methods found on class com.vishwas.depottocustomerdeliverytime.controller.CustomerController: {public java.lang.String com.vishwas.depottocustomerdeliverytime.controller.CustomerController.index()={[/]}, public org.springframework.web.servlet.ModelAndView com.vishwas.depottocustomerdeliverytime.controller.CustomerController.save(com.vishwas.depottocustomerdeliverytime.beans.Location)={[/save],methods=[POST]}}
+2018-02-07 08:25:47.004  INFO 3444 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.vishwas.depottocustomerdeliverytime.controller.CustomerController.index()
+2018-02-07 08:25:47.004  INFO 3444 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.vishwas.depottocustomerdeliverytime.controller.CustomerController.save(com.vishwas.depottocustomerdeliverytime.beans.Location)
+2018-02-07 08:25:47.004 DEBUG 3444 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 request handler methods found on class org.springframework.boot.autoconfigure.web.BasicErrorController: {public org.springframework.http.ResponseEntity org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)={[/error]}, public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)={[/error],produces=[text/html]}}
+2018-02-07 08:25:47.004  INFO 3444 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-07 08:25:47.019  INFO 3444 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-07 08:25:47.066 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Looking for URL mappings in application context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7fad8c79: startup date [Wed Feb 07 08:25:40 IST 2018]; root of context hierarchy
+2018-02-07 08:25:47.066 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor': no URL paths identified
+2018-02-07 08:25:47.066 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor': no URL paths identified
+2018-02-07 08:25:47.066 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.annotation.internalRequiredAnnotationProcessor': no URL paths identified
+2018-02-07 08:25:47.066 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.annotation.internalCommonAnnotationProcessor': no URL paths identified
+2018-02-07 08:25:47.066 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.event.internalEventListenerProcessor': no URL paths identified
+2018-02-07 08:25:47.066 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.event.internalEventListenerFactory': no URL paths identified
+2018-02-07 08:25:47.066 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'depotToCustomerDeliveryTimeApplication': no URL paths identified
+2018-02-07 08:25:47.066 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory': no URL paths identified
+2018-02-07 08:25:47.066 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'customerController': no URL paths identified
+2018-02-07 08:25:47.066 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'customerService': no URL paths identified
+2018-02-07 08:25:47.066 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.AutoConfigurationPackages': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'propertySourcesPlaceholderConfigurer': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'standardJacksonObjectMapperBuilderCustomizer': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.store': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'jacksonObjectMapperBuilder': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'jacksonObjectMapper': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'jsonComponentModule': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration$TomcatWebSocketConfiguration': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'websocketContainerCustomizer': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration$EmbeddedTomcat': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'tomcatEmbeddedServletContainerFactory': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'embeddedServletContainerCustomizerBeanPostProcessor': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'errorPageRegistrarBeanPostProcessor': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletConfiguration': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'dispatcherServlet': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.mvc-org.springframework.boot.autoconfigure.web.WebMvcProperties': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'dispatcherServletRegistration': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'defaultValidator': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'methodValidationPostProcessor': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'error': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'beanNameViewResolver': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'conventionErrorViewResolver': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'errorAttributes': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'basicErrorController': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'errorPageCustomizer': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'preserveErrorControllerTargetClassPostProcessor': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$EnableWebMvcConfiguration': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'requestMappingHandlerAdapter': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'requestMappingHandlerMapping': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcValidator': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcContentNegotiationManager': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcPathMatcher': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcUrlPathHelper': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'viewControllerHandlerMapping': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'beanNameHandlerMapping': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'resourceHandlerMapping': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcResourceUrlProvider': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'defaultServletHandlerMapping': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcConversionService': no URL paths identified
+2018-02-07 08:25:47.082 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcUriComponentsContributor': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'httpRequestHandlerAdapter': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'simpleControllerHandlerAdapter': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'handlerExceptionResolver': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcViewResolver': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcHandlerMappingIntrospector': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'faviconHandlerMapping': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'faviconRequestHandler': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'defaultViewResolver': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'viewResolver': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'welcomePageHandlerMapping': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'requestContextFilter': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'hiddenHttpMethodFilter': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'httpPutFormContentFilter': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mbeanExporter': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'objectNamingStrategy': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mbeanServer': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'stringHttpMessageConverter': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.http.encoding-org.springframework.boot.autoconfigure.web.HttpEncodingProperties': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mappingJackson2HttpMessageConverter': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.JacksonHttpMessageConvertersConfiguration': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'messageConverters': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafResourceHandlingConfig': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafWebLayoutConfiguration': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'layoutDialect': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafDefaultConfiguration': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'templateEngine': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$Thymeleaf2Configuration$Thymeleaf2ViewResolverConfiguration': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'thymeleafViewResolver': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$Thymeleaf2Configuration$DefaultTemplateResolverConfiguration': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'thymeleafResourceResolver': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'defaultTemplateResolver': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$Thymeleaf2Configuration': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.thymeleaf-org.springframework.boot.autoconfigure.thymeleaf.ThymeleafProperties': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.HttpEncodingAutoConfiguration': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'characterEncodingFilter': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'localeCharsetMappingsCustomizer': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.MultipartAutoConfiguration': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'multipartConfigElement': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'multipartResolver': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.http.multipart-org.springframework.boot.autoconfigure.web.MultipartProperties': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.ServerPropertiesAutoConfiguration': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'serverProperties': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'duplicateServerPropertiesDetector': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.WebClientAutoConfiguration$RestTemplateConfiguration': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'restTemplateBuilder': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.WebClientAutoConfiguration': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'autoConfigurationReport': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'springApplicationArguments': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'springBootBanner': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'springBootLoggingSystem': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'environment': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'systemProperties': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'systemEnvironment': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'messageSource': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'applicationEventMulticaster': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'servletContext': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'contextParameters': no URL paths identified
+2018-02-07 08:25:47.097 DEBUG 3444 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'contextAttributes': no URL paths identified
+2018-02-07 08:25:47.129  INFO 3444 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-07 08:25:47.129  INFO 3444 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-07 08:25:47.176 DEBUG 3444 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Looking for exception mappings: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7fad8c79: startup date [Wed Feb 07 08:25:40 IST 2018]; root of context hierarchy
+2018-02-07 08:25:47.254  INFO 3444 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-07 08:25:48.491  INFO 3444 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-07 08:25:48.555 DEBUG 3444 --- [main] o.s.w.s.resource.ResourceUrlProvider     : Looking for resource handler mappings
+2018-02-07 08:25:48.571 DEBUG 3444 --- [main] o.s.w.s.resource.ResourceUrlProvider     : Found resource handler mapping: URL pattern="/**/favicon.ico", locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], class path resource []], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@1e6308a9]
+2018-02-07 08:25:48.571 DEBUG 3444 --- [main] o.s.w.s.resource.ResourceUrlProvider     : Found resource handler mapping: URL pattern="/webjars/**", locations=[class path resource [META-INF/resources/webjars/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@30cecdca]
+2018-02-07 08:25:48.571 DEBUG 3444 --- [main] o.s.w.s.resource.ResourceUrlProvider     : Found resource handler mapping: URL pattern="/**", locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@6edc4161]
+2018-02-07 08:25:48.821  INFO 3444 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-02-07 08:25:48.821 DEBUG 3444 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding PropertySource 'server.ports' with highest search precedence
+2018-02-07 08:25:48.836  INFO 3444 --- [main] d.DepotToCustomerDeliveryTimeApplication : Started DepotToCustomerDeliveryTimeApplication in 11.615 seconds (JVM running for 13.11)
+2018-02-07 08:26:25.164 DEBUG 3444 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing servlet 'dispatcherServlet'
+2018-02-07 08:26:25.169  INFO 3444 --- [http-nio-8080-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-07 08:26:25.170  INFO 3444 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-07 08:26:25.171 DEBUG 3444 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Using MultipartResolver [org.springframework.web.multipart.support.StandardServletMultipartResolver@478eff4b]
+2018-02-07 08:26:25.184 DEBUG 3444 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@1e5628ce]
+2018-02-07 08:26:25.197 DEBUG 3444 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@60fead1]
+2018-02-07 08:26:25.216 DEBUG 3444 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@35d91214]
+2018-02-07 08:26:25.243 DEBUG 3444 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Unable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@4137dacd]
+2018-02-07 08:26:25.243 DEBUG 3444 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Published WebApplicationContext of servlet 'dispatcherServlet' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.dispatcherServlet]
+2018-02-07 08:26:25.244  INFO 3444 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 73 ms
+2018-02-07 08:26:25.245 DEBUG 3444 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Servlet 'dispatcherServlet' configured successfully
+2018-02-07 08:26:25.521 DEBUG 3444 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : DispatcherServlet with name 'dispatcherServlet' processing GET request for [/]
+2018-02-07 08:26:25.541 DEBUG 3444 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Looking up handler method for path /
+2018-02-07 08:26:25.554 DEBUG 3444 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Returning handler method [public java.lang.String com.vishwas.depottocustomerdeliverytime.controller.CustomerController.index()]
+2018-02-07 08:26:25.574 DEBUG 3444 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Last-Modified value for [/] is: -1
+2018-02-07 08:26:25.675 DEBUG 3444 --- [http-nio-8080-exec-10] o.s.w.s.v.ContentNegotiatingViewResolver : Requested media types are [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8] based on Accept header types and producible media types [*/*])
+2018-02-07 08:26:25.677 DEBUG 3444 --- [http-nio-8080-exec-10] o.s.w.servlet.view.BeanNameViewResolver  : No matching bean found for view name 'index'
+2018-02-07 08:26:25.801 DEBUG 3444 --- [http-nio-8080-exec-10] o.s.w.s.v.ContentNegotiatingViewResolver : Returning [org.thymeleaf.spring4.view.ThymeleafView@17ea5f26] based on requested media type 'text/html'
+2018-02-07 08:26:25.802 DEBUG 3444 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring4.view.ThymeleafView@17ea5f26] in DispatcherServlet with name 'dispatcherServlet'
+2018-02-07 08:26:26.508 DEBUG 3444 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Successfully completed request
+2018-02-07 08:26:28.227 DEBUG 3444 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : DispatcherServlet with name 'dispatcherServlet' processing GET request for [/drone-white.jpg]
+2018-02-07 08:26:28.229 DEBUG 3444 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Looking up handler method for path /drone-white.jpg
+2018-02-07 08:26:28.237 DEBUG 3444 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Did not find handler method for [/drone-white.jpg]
+2018-02-07 08:26:28.238 DEBUG 3444 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Matching patterns for request [/drone-white.jpg] are [/**]
+2018-02-07 08:26:28.241 DEBUG 3444 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : URI Template variables for request [/drone-white.jpg] are {}
+2018-02-07 08:26:28.244 DEBUG 3444 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapping [/drone-white.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@6edc4161]]] and 1 interceptor
+2018-02-07 08:26:28.247 DEBUG 3444 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Last-Modified value for [/drone-white.jpg] is: -1
+2018-02-07 08:26:28.301 DEBUG 3444 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-02-07 08:26:28.303 DEBUG 3444 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Successfully completed request
+2018-02-07 08:26:43.052 DEBUG 3444 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : DispatcherServlet with name 'dispatcherServlet' processing POST request for [/save]
+2018-02-07 08:26:43.054 DEBUG 3444 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Looking up handler method for path /save
+2018-02-07 08:26:43.057 DEBUG 3444 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Returning handler method [public org.springframework.web.servlet.ModelAndView com.vishwas.depottocustomerdeliverytime.controller.CustomerController.save(com.vishwas.depottocustomerdeliverytime.beans.Location)]
+2018-02-07 08:26:43.116 DEBUG 3444 --- [http-nio-8080-exec-3] o.s.web.cors.DefaultCorsProcessor        : Skip CORS processing: request is from same origin
+2018-02-07 08:26:43.651  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.controller.CustomerController      : Customer Controller has Begun
+2018-02-07 08:26:43.652  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's getShortestDistance method has begun.
+2018-02-07 08:26:43.653  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 08:26:43.655  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 08:26:43.656  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 08:26:43.657  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 08:26:43.661  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 08:26:43.662  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 08:26:43.663  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 08:26:43.663  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 08:26:43.664  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 08:26:43.664  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 08:26:43.665  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 08:26:43.666  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 08:26:43.666  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 08:26:43.667  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 08:26:43.668  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 08:26:43.668  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 08:26:43.669  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 08:26:43.670  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 08:26:43.671  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 08:26:43.672  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 08:26:43.673  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's getShortestDistance method has ended.
+2018-02-07 08:26:43.684  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's getShortestDistance method has begun.
+2018-02-07 08:26:43.686  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 08:26:43.687  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 08:26:43.688  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 08:26:43.689  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 08:26:43.689  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 08:26:43.690  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 08:26:43.690  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 08:26:43.691  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 08:26:43.691  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 08:26:43.692  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 08:26:43.703  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's getShortestDistance method has ended.
+2018-02-07 08:26:43.706  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.controller.CustomerController      : ////////////////Distance Between Stores and Customers/////////////////////////
+2018-02-07 08:26:43.707  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has begun.
+2018-02-07 08:26:43.713  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has ended.
+2018-02-07 08:26:43.714  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has begun.
+2018-02-07 08:26:43.715  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has ended.
+2018-02-07 08:26:43.716  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has begun.
+2018-02-07 08:26:43.717  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has ended.
+2018-02-07 08:26:43.719  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has begun.
+2018-02-07 08:26:43.721  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has ended.
+2018-02-07 08:26:43.722  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has begun.
+2018-02-07 08:26:43.729  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has ended.
+2018-02-07 08:26:43.730  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has begun.
+2018-02-07 08:26:43.731  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has ended.
+2018-02-07 08:26:43.734  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has begun.
+2018-02-07 08:26:43.735  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has ended.
+2018-02-07 08:26:43.736  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has begun.
+2018-02-07 08:26:43.737  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has ended.
+2018-02-07 08:26:43.744  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.controller.CustomerController      : Depot :-->Am Albertussee 1, 40549 Düsseldorf Store :-->Schiessstraße 31, 40549 Düsseldorf  Customer:-->Kronprinzenstraße 88, 40217 DüsseldorfDistance :-->4.869276367152733 Time to deliver:-->4minutes 52seconds
+2018-02-07 08:26:43.745  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.controller.CustomerController      : Depot :-->Metrostrasse 12, 40235 Düsseldorf Store :-->Friedrichstraße 152, 40217 Düsseldorf  Customer:-->Kronprinzenstraße 88, 40217 DüsseldorfDistance :-->5.026350216449146 Time to deliver:-->5minutes 2seconds
+2018-02-07 08:26:43.746  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.controller.CustomerController      : Depot :-->Am Albertussee 1, 40549 Düsseldorf Store :-->Friedrichstraße 152, 40217 Düsseldorf  Customer:-->Kronprinzenstraße 88, 40217 DüsseldorfDistance :-->5.596046862854339 Time to deliver:-->5minutes 36seconds
+2018-02-07 08:26:43.747  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.controller.CustomerController      : Depot :-->Am Albertussee 1, 40549 Düsseldorf Store :-->Bataverstraße 93, 41462 Neuss  Customer:-->Kronprinzenstraße 88, 40217 DüsseldorfDistance :-->9.015314574521536 Time to deliver:-->9minutes 1seconds
+2018-02-07 08:26:43.748  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.controller.CustomerController      : Depot :-->Metrostrasse 12, 40235 Düsseldorf Store :-->Schiessstraße 31, 40549 Düsseldorf  Customer:-->Kronprinzenstraße 88, 40217 DüsseldorfDistance :-->11.926531594745022 Time to deliver:-->11minutes 56seconds
+2018-02-07 08:26:43.749  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.controller.CustomerController      : Depot :-->Metrostrasse 12, 40235 Düsseldorf Store :-->Bataverstraße 93, 41462 Neuss  Customer:-->Kronprinzenstraße 88, 40217 DüsseldorfDistance :-->16.00773048581248 Time to deliver:-->16minutes 1seconds
+2018-02-07 08:26:43.750  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.controller.CustomerController      : Depot :-->Metrostrasse 12, 40235 Düsseldorf Store :-->Am Sandbach 30, 40878 Ratingen  Customer:-->Kronprinzenstraße 88, 40217 DüsseldorfDistance :-->17.215912260199726 Time to deliver:-->17minutes 13seconds
+2018-02-07 08:26:43.751  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.controller.CustomerController      : Depot :-->Am Albertussee 1, 40549 Düsseldorf Store :-->Am Sandbach 30, 40878 Ratingen  Customer:-->Kronprinzenstraße 88, 40217 DüsseldorfDistance :-->20.32481323343972 Time to deliver:-->20minutes 19seconds
+2018-02-07 08:26:43.752  INFO 3444 --- [http-nio-8080-exec-3] c.v.d.controller.CustomerController      : Customer Controller has ended
+2018-02-07 08:26:43.783 DEBUG 3444 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Requested media types are [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8] based on Accept header types and producible media types [*/*])
+2018-02-07 08:26:43.793 DEBUG 3444 --- [http-nio-8080-exec-3] o.s.w.servlet.view.BeanNameViewResolver  : No matching bean found for view name 'depot-to-customer'
+2018-02-07 08:26:43.797 DEBUG 3444 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Returning [org.thymeleaf.spring4.view.ThymeleafView@1b2187bd] based on requested media type 'text/html'
+2018-02-07 08:26:43.798 DEBUG 3444 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring4.view.ThymeleafView@1b2187bd] in DispatcherServlet with name 'dispatcherServlet'
+2018-02-07 08:26:44.629 DEBUG 3444 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Successfully completed request
+2018-02-07 08:26:45.063 DEBUG 3444 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : DispatcherServlet with name 'dispatcherServlet' processing GET request for [/drone-white.jpg]
+2018-02-07 08:26:45.065 DEBUG 3444 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Looking up handler method for path /drone-white.jpg
+2018-02-07 08:26:45.067 DEBUG 3444 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Did not find handler method for [/drone-white.jpg]
+2018-02-07 08:26:45.068 DEBUG 3444 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Matching patterns for request [/drone-white.jpg] are [/**]
+2018-02-07 08:26:45.068 DEBUG 3444 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : URI Template variables for request [/drone-white.jpg] are {}
+2018-02-07 08:26:45.069 DEBUG 3444 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapping [/drone-white.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@6edc4161]]] and 1 interceptor
+2018-02-07 08:26:45.069 DEBUG 3444 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Last-Modified value for [/drone-white.jpg] is: -1
+2018-02-07 08:26:45.081 DEBUG 3444 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-02-07 08:26:45.081 DEBUG 3444 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Successfully completed request
+2018-02-07 11:06:50.389 DEBUG 5696 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+2018-02-07 11:06:50.436 DEBUG 5696 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding PropertySource 'servletContextInitParams' with lowest search precedence
+2018-02-07 11:06:50.436 DEBUG 5696 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding PropertySource 'systemProperties' with lowest search precedence
+2018-02-07 11:06:50.436 DEBUG 5696 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding PropertySource 'systemEnvironment' with lowest search precedence
+2018-02-07 11:06:50.436 DEBUG 5696 --- [main] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [StubPropertySource {name='servletConfigInitParams'}, StubPropertySource {name='servletContextInitParams'}, MapPropertySource {name='systemProperties'}, SystemEnvironmentPropertySource {name='systemEnvironment'}]
+2018-02-07 11:06:50.824  INFO 5696 --- [main] d.DepotToCustomerDeliveryTimeApplication : Starting DepotToCustomerDeliveryTimeApplication on VikkyhpSleekbook with PID 5696 (E:\STS_workspace\DepotToCustomerDeliveryTime\target\classes started by hp in E:\STS_workspace\DepotToCustomerDeliveryTime)
+2018-02-07 11:06:50.827  INFO 5696 --- [main] d.DepotToCustomerDeliveryTimeApplication : No active profile set, falling back to default profiles: default
+2018-02-07 11:06:52.546  INFO 5696 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7fad8c79: startup date [Wed Feb 07 11:06:52 IST 2018]; root of context hierarchy
+2018-02-07 11:06:55.250 DEBUG 5696 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with search precedence immediately lower than 'applicationConfigurationProperties'
+2018-02-07 11:06:55.250 DEBUG 5696 --- [main] o.s.w.c.s.StandardServletEnvironment     : Removing PropertySource 'applicationConfigurationProperties'
+2018-02-07 11:06:55.250 DEBUG 5696 --- [main] o.s.w.c.s.StandardServletEnvironment     : Removing PropertySource 'defaultProperties'
+2018-02-07 11:06:56.904  INFO 5696 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-02-07 11:06:56.945  INFO 5696 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-07 11:06:56.945  INFO 5696 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-07 11:06:57.445  INFO 5696 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-07 11:06:57.445 DEBUG 5696 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2018-02-07 11:06:57.445  INFO 5696 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4915 ms
+2018-02-07 11:06:57.892  INFO 5696 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-07 11:06:57.892  INFO 5696 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-07 11:06:57.908  INFO 5696 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-07 11:06:57.908  INFO 5696 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-07 11:06:57.908  INFO 5696 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-07 11:06:57.966 DEBUG 5696 --- [main] o.s.w.c.s.StandardServletEnvironment     : Replacing PropertySource 'servletContextInitParams' with 'servletContextInitParams'
+2018-02-07 11:06:58.653  INFO 5696 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7fad8c79: startup date [Wed Feb 07 11:06:52 IST 2018]; root of context hierarchy
+2018-02-07 11:06:58.834 DEBUG 5696 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Looking for request mappings in application context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7fad8c79: startup date [Wed Feb 07 11:06:52 IST 2018]; root of context hierarchy
+2018-02-07 11:06:58.865 DEBUG 5696 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 request handler methods found on class com.vishwas.depottocustomerdeliverytime.controller.CustomerController: {public java.lang.String com.vishwas.depottocustomerdeliverytime.controller.CustomerController.index()={[/]}, public org.springframework.web.servlet.ModelAndView com.vishwas.depottocustomerdeliverytime.controller.CustomerController.getPath(com.vishwas.depottocustomerdeliverytime.beans.Location)={[/getPath],methods=[POST]}}
+2018-02-07 11:06:58.865  INFO 5696 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.vishwas.depottocustomerdeliverytime.controller.CustomerController.index()
+2018-02-07 11:06:58.881  INFO 5696 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getPath],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.vishwas.depottocustomerdeliverytime.controller.CustomerController.getPath(com.vishwas.depottocustomerdeliverytime.beans.Location)
+2018-02-07 11:06:58.881 DEBUG 5696 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 request handler methods found on class org.springframework.boot.autoconfigure.web.BasicErrorController: {public org.springframework.http.ResponseEntity org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)={[/error]}, public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)={[/error],produces=[text/html]}}
+2018-02-07 11:06:58.881  INFO 5696 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-07 11:06:58.881  INFO 5696 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-07 11:06:58.943 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Looking for URL mappings in application context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7fad8c79: startup date [Wed Feb 07 11:06:52 IST 2018]; root of context hierarchy
+2018-02-07 11:06:58.943 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor': no URL paths identified
+2018-02-07 11:06:58.943 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor': no URL paths identified
+2018-02-07 11:06:58.943 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.annotation.internalRequiredAnnotationProcessor': no URL paths identified
+2018-02-07 11:06:58.943 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.annotation.internalCommonAnnotationProcessor': no URL paths identified
+2018-02-07 11:06:58.959 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.event.internalEventListenerProcessor': no URL paths identified
+2018-02-07 11:06:58.959 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.event.internalEventListenerFactory': no URL paths identified
+2018-02-07 11:06:58.959 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'depotToCustomerDeliveryTimeApplication': no URL paths identified
+2018-02-07 11:06:58.959 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory': no URL paths identified
+2018-02-07 11:06:58.959 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'customerController': no URL paths identified
+2018-02-07 11:06:58.959 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'customerService': no URL paths identified
+2018-02-07 11:06:58.959 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.AutoConfigurationPackages': no URL paths identified
+2018-02-07 11:06:58.959 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration': no URL paths identified
+2018-02-07 11:06:58.959 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry': no URL paths identified
+2018-02-07 11:06:58.959 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'propertySourcesPlaceholderConfigurer': no URL paths identified
+2018-02-07 11:06:58.959 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration': no URL paths identified
+2018-02-07 11:06:58.959 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'standardJacksonObjectMapperBuilderCustomizer': no URL paths identified
+2018-02-07 11:06:58.959 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties': no URL paths identified
+2018-02-07 11:06:58.959 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor': no URL paths identified
+2018-02-07 11:06:58.959 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.store': no URL paths identified
+2018-02-07 11:06:58.959 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration': no URL paths identified
+2018-02-07 11:06:58.959 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'jacksonObjectMapperBuilder': no URL paths identified
+2018-02-07 11:06:58.959 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration': no URL paths identified
+2018-02-07 11:06:58.959 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'jacksonObjectMapper': no URL paths identified
+2018-02-07 11:06:58.974 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'jsonComponentModule': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration$TomcatWebSocketConfiguration': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'websocketContainerCustomizer': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration$EmbeddedTomcat': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'tomcatEmbeddedServletContainerFactory': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'embeddedServletContainerCustomizerBeanPostProcessor': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'errorPageRegistrarBeanPostProcessor': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletConfiguration': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'dispatcherServlet': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.mvc-org.springframework.boot.autoconfigure.web.WebMvcProperties': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'dispatcherServletRegistration': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'defaultValidator': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'methodValidationPostProcessor': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'error': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'beanNameViewResolver': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'conventionErrorViewResolver': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'errorAttributes': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'basicErrorController': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'errorPageCustomizer': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'preserveErrorControllerTargetClassPostProcessor': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$EnableWebMvcConfiguration': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'requestMappingHandlerAdapter': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'requestMappingHandlerMapping': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcValidator': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcContentNegotiationManager': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcPathMatcher': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcUrlPathHelper': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'viewControllerHandlerMapping': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'beanNameHandlerMapping': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'resourceHandlerMapping': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcResourceUrlProvider': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'defaultServletHandlerMapping': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcConversionService': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcUriComponentsContributor': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'httpRequestHandlerAdapter': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'simpleControllerHandlerAdapter': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'handlerExceptionResolver': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcViewResolver': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mvcHandlerMappingIntrospector': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'faviconHandlerMapping': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'faviconRequestHandler': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'defaultViewResolver': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'viewResolver': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'welcomePageHandlerMapping': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'requestContextFilter': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'hiddenHttpMethodFilter': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'httpPutFormContentFilter': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mbeanExporter': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'objectNamingStrategy': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mbeanServer': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration': no URL paths identified
+2018-02-07 11:06:58.975 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'stringHttpMessageConverter': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.http.encoding-org.springframework.boot.autoconfigure.web.HttpEncodingProperties': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'mappingJackson2HttpMessageConverter': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.JacksonHttpMessageConvertersConfiguration': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'messageConverters': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafResourceHandlingConfig': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafWebLayoutConfiguration': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'layoutDialect': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafDefaultConfiguration': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'templateEngine': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$Thymeleaf2Configuration$Thymeleaf2ViewResolverConfiguration': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'thymeleafViewResolver': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$Thymeleaf2Configuration$DefaultTemplateResolverConfiguration': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'thymeleafResourceResolver': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'defaultTemplateResolver': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$Thymeleaf2Configuration': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.thymeleaf-org.springframework.boot.autoconfigure.thymeleaf.ThymeleafProperties': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.HttpEncodingAutoConfiguration': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'characterEncodingFilter': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'localeCharsetMappingsCustomizer': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.MultipartAutoConfiguration': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'multipartConfigElement': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'multipartResolver': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'spring.http.multipart-org.springframework.boot.autoconfigure.web.MultipartProperties': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.ServerPropertiesAutoConfiguration': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'serverProperties': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'duplicateServerPropertiesDetector': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.WebClientAutoConfiguration$RestTemplateConfiguration': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'restTemplateBuilder': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.boot.autoconfigure.web.WebClientAutoConfiguration': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'autoConfigurationReport': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'springApplicationArguments': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'springBootBanner': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'springBootLoggingSystem': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'environment': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'systemProperties': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'systemEnvironment': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'messageSource': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'applicationEventMulticaster': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'servletContext': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'contextParameters': no URL paths identified
+2018-02-07 11:06:58.991 DEBUG 5696 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Rejected bean name 'contextAttributes': no URL paths identified
+2018-02-07 11:06:59.054  INFO 5696 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-07 11:06:59.054  INFO 5696 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-07 11:06:59.100 DEBUG 5696 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Looking for exception mappings: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7fad8c79: startup date [Wed Feb 07 11:06:52 IST 2018]; root of context hierarchy
+2018-02-07 11:06:59.163  INFO 5696 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-07 11:07:00.364  INFO 5696 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-07 11:07:00.401 DEBUG 5696 --- [main] o.s.w.s.resource.ResourceUrlProvider     : Looking for resource handler mappings
+2018-02-07 11:07:00.401 DEBUG 5696 --- [main] o.s.w.s.resource.ResourceUrlProvider     : Found resource handler mapping: URL pattern="/**/favicon.ico", locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], class path resource []], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@1c025cb]
+2018-02-07 11:07:00.401 DEBUG 5696 --- [main] o.s.w.s.resource.ResourceUrlProvider     : Found resource handler mapping: URL pattern="/webjars/**", locations=[class path resource [META-INF/resources/webjars/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@50825a02]
+2018-02-07 11:07:00.401 DEBUG 5696 --- [main] o.s.w.s.resource.ResourceUrlProvider     : Found resource handler mapping: URL pattern="/**", locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@68809cc7]
+2018-02-07 11:07:00.666  INFO 5696 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-02-07 11:07:00.666 DEBUG 5696 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding PropertySource 'server.ports' with highest search precedence
+2018-02-07 11:07:00.666  INFO 5696 --- [main] d.DepotToCustomerDeliveryTimeApplication : Started DepotToCustomerDeliveryTimeApplication in 11.461 seconds (JVM running for 13.211)
+2018-02-07 11:07:41.984 DEBUG 5696 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing servlet 'dispatcherServlet'
+2018-02-07 11:07:41.988  INFO 5696 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-07 11:07:41.988  INFO 5696 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-07 11:07:41.989 DEBUG 5696 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Using MultipartResolver [org.springframework.web.multipart.support.StandardServletMultipartResolver@cc5c5a1]
+2018-02-07 11:07:42.002 DEBUG 5696 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@6d644733]
+2018-02-07 11:07:42.019 DEBUG 5696 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@722cb266]
+2018-02-07 11:07:42.043 DEBUG 5696 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6a568e33]
+2018-02-07 11:07:42.077 DEBUG 5696 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Unable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@6b516314]
+2018-02-07 11:07:42.078 DEBUG 5696 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Published WebApplicationContext of servlet 'dispatcherServlet' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.dispatcherServlet]
+2018-02-07 11:07:42.079  INFO 5696 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 90 ms
+2018-02-07 11:07:42.079 DEBUG 5696 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Servlet 'dispatcherServlet' configured successfully
+2018-02-07 11:07:42.163 DEBUG 5696 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : DispatcherServlet with name 'dispatcherServlet' processing GET request for [/]
+2018-02-07 11:07:42.197 DEBUG 5696 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Looking up handler method for path /
+2018-02-07 11:07:42.206 DEBUG 5696 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Returning handler method [public java.lang.String com.vishwas.depottocustomerdeliverytime.controller.CustomerController.index()]
+2018-02-07 11:07:42.209 DEBUG 5696 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Last-Modified value for [/] is: -1
+2018-02-07 11:07:42.304 DEBUG 5696 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Requested media types are [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8] based on Accept header types and producible media types [*/*])
+2018-02-07 11:07:42.305 DEBUG 5696 --- [http-nio-8080-exec-1] o.s.w.servlet.view.BeanNameViewResolver  : No matching bean found for view name 'index'
+2018-02-07 11:07:42.355 DEBUG 5696 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Returning [org.thymeleaf.spring4.view.ThymeleafView@48fea7e] based on requested media type 'text/html'
+2018-02-07 11:07:42.356 DEBUG 5696 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring4.view.ThymeleafView@48fea7e] in DispatcherServlet with name 'dispatcherServlet'
+2018-02-07 11:07:42.863 DEBUG 5696 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Successfully completed request
+2018-02-07 11:07:42.925 DEBUG 5696 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : DispatcherServlet with name 'dispatcherServlet' processing GET request for [/drone-white.jpg]
+2018-02-07 11:07:42.929 DEBUG 5696 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Looking up handler method for path /drone-white.jpg
+2018-02-07 11:07:42.939 DEBUG 5696 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Did not find handler method for [/drone-white.jpg]
+2018-02-07 11:07:42.942 DEBUG 5696 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Matching patterns for request [/drone-white.jpg] are [/**]
+2018-02-07 11:07:42.945 DEBUG 5696 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : URI Template variables for request [/drone-white.jpg] are {}
+2018-02-07 11:07:42.950 DEBUG 5696 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapping [/drone-white.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@68809cc7]]] and 1 interceptor
+2018-02-07 11:07:42.953 DEBUG 5696 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Last-Modified value for [/drone-white.jpg] is: -1
+2018-02-07 11:07:43.136 DEBUG 5696 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-02-07 11:07:43.137 DEBUG 5696 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Successfully completed request
+2018-02-07 11:08:11.284 DEBUG 5696 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : DispatcherServlet with name 'dispatcherServlet' processing POST request for [/getPath]
+2018-02-07 11:08:11.286 DEBUG 5696 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Looking up handler method for path /getPath
+2018-02-07 11:08:11.289 DEBUG 5696 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Returning handler method [public org.springframework.web.servlet.ModelAndView com.vishwas.depottocustomerdeliverytime.controller.CustomerController.getPath(com.vishwas.depottocustomerdeliverytime.beans.Location)]
+2018-02-07 11:08:11.367 DEBUG 5696 --- [http-nio-8080-exec-4] o.s.web.cors.DefaultCorsProcessor        : Skip CORS processing: request is from same origin
+2018-02-07 11:08:11.792  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.controller.CustomerController      : Customer Controller has Begun
+2018-02-07 11:08:11.793  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's getShortestDistance method has begun.
+2018-02-07 11:08:11.794  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 11:08:11.817  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 11:08:11.818  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 11:08:11.820  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 11:08:11.821  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 11:08:11.822  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 11:08:11.823  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 11:08:11.823  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 11:08:11.824  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 11:08:11.824  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 11:08:11.824  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 11:08:11.825  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 11:08:11.825  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 11:08:11.825  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 11:08:11.826  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 11:08:11.826  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 11:08:11.826  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 11:08:11.827  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 11:08:11.827  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 11:08:11.828  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 11:08:11.829  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's getShortestDistance method has ended.
+2018-02-07 11:08:11.833  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's getShortestDistance method has begun.
+2018-02-07 11:08:11.833  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 11:08:11.834  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 11:08:11.834  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 11:08:11.835  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 11:08:11.835  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 11:08:11.835  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 11:08:11.836  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 11:08:11.836  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 11:08:11.836  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 11:08:11.837  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 11:08:11.837  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's getShortestDistance method has ended.
+2018-02-07 11:08:11.840  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has begun.
+2018-02-07 11:08:11.846  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has ended.
+2018-02-07 11:08:11.847  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has begun.
+2018-02-07 11:08:11.848  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has ended.
+2018-02-07 11:08:11.849  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has begun.
+2018-02-07 11:08:11.850  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has ended.
+2018-02-07 11:08:11.850  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has begun.
+2018-02-07 11:08:11.853  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has ended.
+2018-02-07 11:08:11.854  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has begun.
+2018-02-07 11:08:11.855  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has ended.
+2018-02-07 11:08:11.878  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has begun.
+2018-02-07 11:08:11.879  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has ended.
+2018-02-07 11:08:11.880  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has begun.
+2018-02-07 11:08:11.882  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has ended.
+2018-02-07 11:08:11.886  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has begun.
+2018-02-07 11:08:11.887  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has ended.
+2018-02-07 11:08:11.899  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.controller.CustomerController      : Depot :-->Am Albertussee 1, 40549 Düsseldorf Store :-->Schiessstraße 31, 40549 Düsseldorf  Customer:-->Kronprinzenstraße 88, 40217 DüsseldorfDistance :-->4.869276367152733 Time to deliver:-->4minutes 52seconds
+2018-02-07 11:08:11.900  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.controller.CustomerController      : Depot :-->Metrostrasse 12, 40235 Düsseldorf Store :-->Friedrichstraße 152, 40217 Düsseldorf  Customer:-->Kronprinzenstraße 88, 40217 DüsseldorfDistance :-->5.026350216449146 Time to deliver:-->5minutes 2seconds
+2018-02-07 11:08:11.901  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.controller.CustomerController      : Depot :-->Am Albertussee 1, 40549 Düsseldorf Store :-->Friedrichstraße 152, 40217 Düsseldorf  Customer:-->Kronprinzenstraße 88, 40217 DüsseldorfDistance :-->5.596046862854339 Time to deliver:-->5minutes 36seconds
+2018-02-07 11:08:11.902  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.controller.CustomerController      : Depot :-->Am Albertussee 1, 40549 Düsseldorf Store :-->Bataverstraße 93, 41462 Neuss  Customer:-->Kronprinzenstraße 88, 40217 DüsseldorfDistance :-->9.015314574521536 Time to deliver:-->9minutes 1seconds
+2018-02-07 11:08:11.903  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.controller.CustomerController      : Depot :-->Metrostrasse 12, 40235 Düsseldorf Store :-->Schiessstraße 31, 40549 Düsseldorf  Customer:-->Kronprinzenstraße 88, 40217 DüsseldorfDistance :-->11.926531594745022 Time to deliver:-->11minutes 56seconds
+2018-02-07 11:08:11.903  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.controller.CustomerController      : Depot :-->Metrostrasse 12, 40235 Düsseldorf Store :-->Bataverstraße 93, 41462 Neuss  Customer:-->Kronprinzenstraße 88, 40217 DüsseldorfDistance :-->16.00773048581248 Time to deliver:-->16minutes 1seconds
+2018-02-07 11:08:11.904  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.controller.CustomerController      : Depot :-->Metrostrasse 12, 40235 Düsseldorf Store :-->Am Sandbach 30, 40878 Ratingen  Customer:-->Kronprinzenstraße 88, 40217 DüsseldorfDistance :-->17.215912260199726 Time to deliver:-->17minutes 13seconds
+2018-02-07 11:08:11.904  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.controller.CustomerController      : Depot :-->Am Albertussee 1, 40549 Düsseldorf Store :-->Am Sandbach 30, 40878 Ratingen  Customer:-->Kronprinzenstraße 88, 40217 DüsseldorfDistance :-->20.32481323343972 Time to deliver:-->20minutes 19seconds
+2018-02-07 11:08:11.905  INFO 5696 --- [http-nio-8080-exec-4] c.v.d.controller.CustomerController      : Customer Controller has ended
+2018-02-07 11:08:11.908 DEBUG 5696 --- [http-nio-8080-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Requested media types are [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8] based on Accept header types and producible media types [*/*])
+2018-02-07 11:08:11.909 DEBUG 5696 --- [http-nio-8080-exec-4] o.s.w.servlet.view.BeanNameViewResolver  : No matching bean found for view name 'depot-to-customer'
+2018-02-07 11:08:11.913 DEBUG 5696 --- [http-nio-8080-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Returning [org.thymeleaf.spring4.view.ThymeleafView@2fd03a79] based on requested media type 'text/html'
+2018-02-07 11:08:11.914 DEBUG 5696 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring4.view.ThymeleafView@2fd03a79] in DispatcherServlet with name 'dispatcherServlet'
+2018-02-07 11:08:12.769 DEBUG 5696 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Successfully completed request
+2018-02-07 11:08:19.134 DEBUG 5696 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : DispatcherServlet with name 'dispatcherServlet' processing GET request for [/]
+2018-02-07 11:08:19.136 DEBUG 5696 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Looking up handler method for path /
+2018-02-07 11:08:19.137 DEBUG 5696 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Returning handler method [public java.lang.String com.vishwas.depottocustomerdeliverytime.controller.CustomerController.index()]
+2018-02-07 11:08:19.138 DEBUG 5696 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Last-Modified value for [/] is: -1
+2018-02-07 11:08:19.144 DEBUG 5696 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Requested media types are [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8] based on Accept header types and producible media types [*/*])
+2018-02-07 11:08:19.145 DEBUG 5696 --- [http-nio-8080-exec-3] o.s.w.servlet.view.BeanNameViewResolver  : No matching bean found for view name 'index'
+2018-02-07 11:08:19.146 DEBUG 5696 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Returning [org.thymeleaf.spring4.view.ThymeleafView@48fea7e] based on requested media type 'text/html'
+2018-02-07 11:08:19.146 DEBUG 5696 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring4.view.ThymeleafView@48fea7e] in DispatcherServlet with name 'dispatcherServlet'
+2018-02-07 11:08:19.156 DEBUG 5696 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Successfully completed request
+2018-02-07 11:08:34.572 DEBUG 5696 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : DispatcherServlet with name 'dispatcherServlet' processing POST request for [/getPath]
+2018-02-07 11:08:34.574 DEBUG 5696 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Looking up handler method for path /getPath
+2018-02-07 11:08:34.575 DEBUG 5696 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Returning handler method [public org.springframework.web.servlet.ModelAndView com.vishwas.depottocustomerdeliverytime.controller.CustomerController.getPath(com.vishwas.depottocustomerdeliverytime.beans.Location)]
+2018-02-07 11:08:34.577 DEBUG 5696 --- [http-nio-8080-exec-6] o.s.web.cors.DefaultCorsProcessor        : Skip CORS processing: request is from same origin
+2018-02-07 11:08:34.580  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.controller.CustomerController      : Customer Controller has Begun
+2018-02-07 11:08:34.580  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's getShortestDistance method has begun.
+2018-02-07 11:08:34.581  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 11:08:34.581  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 11:08:34.581  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 11:08:34.582  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 11:08:34.582  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 11:08:34.582  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 11:08:34.582  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 11:08:34.583  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 11:08:34.583  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 11:08:34.583  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 11:08:34.584  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 11:08:34.584  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 11:08:34.584  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 11:08:34.584  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 11:08:34.585  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 11:08:34.585  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 11:08:34.585  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 11:08:34.585  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 11:08:34.586  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 11:08:34.586  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 11:08:34.586  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's getShortestDistance method has ended.
+2018-02-07 11:08:34.587  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's getShortestDistance method has begun.
+2018-02-07 11:08:34.587  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 11:08:34.588  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 11:08:34.593  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 11:08:34.593  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 11:08:34.594  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 11:08:34.594  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 11:08:34.594  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 11:08:34.595  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 11:08:34.606  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has begun.
+2018-02-07 11:08:34.607  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's calculateDistanceInKilometer method has ended.
+2018-02-07 11:08:34.608  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's getShortestDistance method has ended.
+2018-02-07 11:08:34.608  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has begun.
+2018-02-07 11:08:34.609  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has ended.
+2018-02-07 11:08:34.609  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has begun.
+2018-02-07 11:08:34.610  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has ended.
+2018-02-07 11:08:34.611  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has begun.
+2018-02-07 11:08:34.611  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has ended.
+2018-02-07 11:08:34.612  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has begun.
+2018-02-07 11:08:34.612  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has ended.
+2018-02-07 11:08:34.612  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has begun.
+2018-02-07 11:08:34.613  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has ended.
+2018-02-07 11:08:34.613  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has begun.
+2018-02-07 11:08:34.614  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has ended.
+2018-02-07 11:08:34.614  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has begun.
+2018-02-07 11:08:34.615  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has ended.
+2018-02-07 11:08:34.615  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has begun.
+2018-02-07 11:08:34.615  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.service.CustomerService            : CustomerService's timeToDeliveryInMinutes method has ended.
+2018-02-07 11:08:34.616  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.controller.CustomerController      : Depot :-->Metrostrasse 12, 40235 Düsseldorf Store :-->Friedrichstraße 152, 40217 Düsseldorf  Customer:-->Schlesische Straße 5, 40231 DüsseldorfDistance :-->7.985781066449038 Time to deliver:-->7minutes 59seconds
+2018-02-07 11:08:34.616  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.controller.CustomerController      : Depot :-->Am Albertussee 1, 40549 Düsseldorf Store :-->Friedrichstraße 152, 40217 Düsseldorf  Customer:-->Schlesische Straße 5, 40231 DüsseldorfDistance :-->8.55547771285423 Time to deliver:-->8minutes 34seconds
+2018-02-07 11:08:34.617  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.controller.CustomerController      : Depot :-->Am Albertussee 1, 40549 Düsseldorf Store :-->Schiessstraße 31, 40549 Düsseldorf  Customer:-->Schlesische Straße 5, 40231 DüsseldorfDistance :-->8.755811601635964 Time to deliver:-->8minutes 46seconds
+2018-02-07 11:08:34.617  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.controller.CustomerController      : Depot :-->Am Albertussee 1, 40549 Düsseldorf Store :-->Bataverstraße 93, 41462 Neuss  Customer:-->Schlesische Straße 5, 40231 DüsseldorfDistance :-->13.197732118133622 Time to deliver:-->13minutes 12seconds
+2018-02-07 11:08:34.617  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.controller.CustomerController      : Depot :-->Metrostrasse 12, 40235 Düsseldorf Store :-->Schiessstraße 31, 40549 Düsseldorf  Customer:-->Schlesische Straße 5, 40231 DüsseldorfDistance :-->15.813066829228253 Time to deliver:-->15minutes 49seconds
+2018-02-07 11:08:34.618  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.controller.CustomerController      : Depot :-->Metrostrasse 12, 40235 Düsseldorf Store :-->Am Sandbach 30, 40878 Ratingen  Customer:-->Schlesische Straße 5, 40231 DüsseldorfDistance :-->16.70370051813167 Time to deliver:-->16minutes 42seconds
+2018-02-07 11:08:34.618  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.controller.CustomerController      : Depot :-->Am Albertussee 1, 40549 Düsseldorf Store :-->Am Sandbach 30, 40878 Ratingen  Customer:-->Schlesische Straße 5, 40231 DüsseldorfDistance :-->19.812601491371666 Time to deliver:-->19minutes 49seconds
+2018-02-07 11:08:34.618  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.controller.CustomerController      : Depot :-->Metrostrasse 12, 40235 Düsseldorf Store :-->Bataverstraße 93, 41462 Neuss  Customer:-->Schlesische Straße 5, 40231 DüsseldorfDistance :-->20.19014802942457 Time to deliver:-->20minutes 11seconds
+2018-02-07 11:08:34.619  INFO 5696 --- [http-nio-8080-exec-6] c.v.d.controller.CustomerController      : Customer Controller has ended
+2018-02-07 11:08:34.624 DEBUG 5696 --- [http-nio-8080-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Requested media types are [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8] based on Accept header types and producible media types [*/*])
+2018-02-07 11:08:34.626 DEBUG 5696 --- [http-nio-8080-exec-6] o.s.w.servlet.view.BeanNameViewResolver  : No matching bean found for view name 'depot-to-customer'
+2018-02-07 11:08:34.627 DEBUG 5696 --- [http-nio-8080-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Returning [org.thymeleaf.spring4.view.ThymeleafView@2fd03a79] based on requested media type 'text/html'
+2018-02-07 11:08:34.627 DEBUG 5696 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring4.view.ThymeleafView@2fd03a79] in DispatcherServlet with name 'dispatcherServlet'
+2018-02-07 11:08:34.643 DEBUG 5696 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Successfully completed request

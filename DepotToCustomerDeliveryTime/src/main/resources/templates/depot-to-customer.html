@@ -1,0 +1,43 @@
+<html xmlns:th="http://thymeleaf.org">
+<head>
+<title>Welcome to Metro-Real Drone Pick-Up Service</title>
+<style>
+h1 {
+	text-align: center;
+}
+
+table {
+	text-align: center;
+}
+
+tr {
+	text-align: center;
+}
+
+td {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+</style>
+</head>
+<body style="background-image: url(drone-white.jpg)">
+	<h1>Quickest Possible Path for Given Customer</h1>
+	<table>
+		<tr>
+			<td><h4>Depot:</h4></td>
+			<td><h4 th:text="${depotToCustomer.depot.getName()}"></h4></td>
+			<td><h4>Store:</h4></td>
+			<td><h4 th:text="${depotToCustomer.store.getName()}"></h4></td>
+			<td><h4>Customer:</h4></td>
+			<td><h4 th:text="${depotToCustomer.customer.getName()}"></h4></td>
+			<td><h4>Distance:</h4></td>
+			<td><h4 th:text="${depotToCustomer.distance}"></h4></td>
+			<td><h4>Time:</h4></td>
+			<td><h4 th:text="${depotToCustomer.time}"></h4></td>
+		</tr>
+	</table>
+</body>
+</html>
